@@ -236,3 +236,8 @@ header img {
         font-size: 2rem;
     }
 }
+@media (max-width: 600px) {
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+}
