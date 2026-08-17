@@ -223,6 +223,9 @@ header img {
     text-decoration: none;
     border-radius: 8px;
 }
+.nappi:hover {
+    background: #a80000;
+}
 
 .hero a:hover {
     background: #a80000;
