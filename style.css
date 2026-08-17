@@ -65,7 +65,7 @@ nav a {
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
 
-    padding: 2px 2px;
+    padding: 4px 4px;
     border-radius: 12px;
 
     color: white;
