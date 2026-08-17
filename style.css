@@ -230,3 +230,9 @@ header img {
     text-decoration: none;
     border-radius: 8px;
 }
+
+@media (max-width: 600px) {
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+}
