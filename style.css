@@ -250,3 +250,255 @@ header img {
 .hero-text p {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
+body {
+    margin: 0;
+    font-family: "Oxanium", sans-serif;
+}
+
+header {
+    background: #c90000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.hero {
+    background-size: cover;
+    background-position: center top;
+    background-image: url("images/kiirimestari2026.jpg");
+    
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+
+    padding: 65px;
+}
+
+.joukkue {
+    background-image: url("images/huddle.jpg");
+    background-size: cover;
+    background-position: center top;
+    
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+
+    padding: 40px;
+}
+
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    padding: 5px 5px;
+    border-radius: 12px;
+
+    color: white;
+}
+
+/*.hero-text {
+
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;*/
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin: 0;
+
+    /*text-shadow: 8px 8px 8px white;*/
+}
+
+.hero-text p {
+    font-size: 1.4rem;
+
+   /* text-shadow: 8px 8px 5px white;*/
+}
+
+.hero a {
+    display: inline-block;
+    background: #c90000;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.vuorot {
+    padding: 40px 20px;
+}
+
+.kortit {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.kortti {
+     background: #f2f2f2;
+    border-left: 6px solid #c90000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 250px;
+    }
+    
+    .kortti-kuva {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 20px;   
+}
+
+.toiminta-kuva {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background: #111;
+    border-top: 5px solid #c90000;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+.uutinen img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+header img {
+    width: 120px;
+}
+
+.uutiset {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.uutiset h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.uutiset-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.uutinen {
+    background: #f2f2f2;
+    padding: 20px;
+    border-left: 5px solid #c90000;
+    border-radius: 10px;
+}
+
+.uutinen a {
+    color: #c90000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.uutinen a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .uutiset-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.maksut {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.maksut div {
+    background: white;
+    border-left: 4px solid #c90000;
+    padding: 15px;
+    flex: 1;
+    min-width: 220px;
+}
+
+.hinta {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c90000;
+    margin: 5px 0;
+}
+
+.nappi {
+    display: inline-block;
+    background: #c90000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.nappi:hover {
+    background: #a80000;
+}
+
+.hero a:hover {
+    background: #a80000;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+}
+
+.hero-text h2,
+.hero-text p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
