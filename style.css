@@ -502,11 +502,3 @@ header img {
 .hero-text p {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
-
-.mitali-kuva {
-    width: 200px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
