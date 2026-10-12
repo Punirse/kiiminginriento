@@ -120,9 +120,8 @@ nav a {
     margin-left: 20px;   
 }
     .pikku-kuva {
-    width: 100%;
     height: auto;
-          max-width: 300px;
+    max-width: 300px;
     border-radius: 8px;
     margin-left: 20px;   
 }
